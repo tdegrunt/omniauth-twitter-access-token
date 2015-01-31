@@ -32,7 +32,7 @@ end
 
 ### Client-Side
 
-Login via ajax GET/POST call to `/auth/twitter_access_token/callback` while providing `token` & `token-secret` parameter.
+Login via ajax GET/POST call to `/auth/twitter_access_token/callback` while providing `token` & `token_secret` parameter.
 
 ## License
 
