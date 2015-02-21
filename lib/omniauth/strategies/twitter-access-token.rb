@@ -48,8 +48,7 @@ module OmniAuth
       end
 
       credentials do
-        hash = {'token' => access_token.token}
-        hash
+        {'token' => access_token.token, 'secret' => access_token.secret}
       end
 
       def raw_info
